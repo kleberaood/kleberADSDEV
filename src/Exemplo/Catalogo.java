@@ -1,14 +1,14 @@
 package Exemplo;
 
 public class Catalogo {
-    public static void main (String []args){
-    /* Estrutura de seleção*/
-        int a= 10, b= 90, c= -100;
-        if (a>0){
-             a = c;
-             if (c > a ){
-                 c = a;
-             }
+    public static void main (String []args) {
+        /* Estrutura de seleção*/
+        int a = 10, b = 90, c = -100;
+        if (a > 0) {
+            a = c;
+            if (c > a) {
+                c = a;
+            }
 
         }
         System.out.println(a);
@@ -18,8 +18,8 @@ public class Catalogo {
             c = b;
         }
         System.out.println(c);
-
-        /*switch/*
+    }
+    } /* switch
         int op = 3;
         int v = 0;
         switch ( op ){
@@ -36,4 +36,4 @@ public class Catalogo {
          System.out.println(V);
 
     }
-     }
+     }/*
